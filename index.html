@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>С Днём Рождения, Екатерина!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="confetti-canvas"></canvas>
+  <div class="particles" id="particles"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-subtitle">Поздравляем</p>
+      <h1 class="hero-title">С Днём Рождения!</h1>
+      <p class="hero-name"><span>Екатерина Канаева</span></p>
+    </div>
+    <a href="#cake" class="scroll-hint">
+      <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </section>
+
+  <!-- CAKE -->
+  <section class="cake-section" id="cake">
+    <h2 class="section-title">Сегодня твой день ✨</h2>
+    <div class="cake-container">
+      <svg class="cake-svg" viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="150" cy="340" rx="140" ry="20" fill="#e8d5c0" opacity="0.5"/>
+        <rect x="40" y="250" width="220" height="80" rx="12" fill="#f0c4d4"/>
+        <rect x="40" y="250" width="220" height="15" rx="8" fill="#e8a0b4"/>
+        <path d="M40 265 Q55 285,60 265 Q75 290,85 265 Q100 288,110 265 Q125 292,135 265 Q150 288,160 265 Q175 290,185 265 Q200 285,210 265 Q225 290,235 265 Q250 285,260 265" fill="none" stroke="#e8a0b4" stroke-width="6" stroke-linecap="round"/>
+        <rect x="70" y="175" width="160" height="75" rx="10" fill="#f7d5e0"/>
+        <rect x="70" y="175" width="160" height="12" rx="6" fill="#f0c4d4"/>
+        <path d="M70 187 Q82 205,90 187 Q102 210,110 187 Q122 208,130 187 Q142 212,150 187 Q162 208,170 187 Q182 210,190 187 Q202 205,210 187 Q222 208,230 187" fill="none" stroke="#f0c4d4" stroke-width="5" stroke-linecap="round"/>
+        <rect x="100" y="110" width="100" height="65" rx="8" fill="#fce4ec"/>
+        <rect x="100" y="110" width="100" height="10" rx="5" fill="#f7d5e0"/>
+        <circle cx="80" cy="255" r="8" fill="#c76b8a" opacity="0.8"/>
+        <circle cx="220" cy="255" r="8" fill="#c76b8a" opacity="0.8"/>
+        <circle cx="150" cy="180" r="7" fill="#c76b8a" opacity="0.8"/>
+        <circle cx="115" cy="255" r="6" fill="#d4a574" opacity="0.7"/>
+        <circle cx="185" cy="255" r="6" fill="#d4a574" opacity="0.7"/>
+        <rect x="125" y="68" width="6" height="42" rx="3" fill="#d4a574"/>
+        <rect x="148" y="60" width="6" height="50" rx="3" fill="#e8a0b4"/>
+        <rect x="170" y="68" width="6" height="42" rx="3" fill="#d4a574"/>
+        <g class="flame">
+          <ellipse cx="128" cy="62" rx="5" ry="10" fill="#FFD700"/>
+          <ellipse cx="128" cy="64" rx="3" ry="6" fill="#FFA500"/>
+          <ellipse cx="128" cy="66" rx="1.5" ry="3" fill="#fff"/>
+          <circle class="flame-glow" cx="128" cy="62" r="15" fill="#FFD700" opacity="0.3"/>
+        </g>
+        <g class="flame">
+          <ellipse cx="151" cy="54" rx="5.5" ry="11" fill="#FFD700"/>
+          <ellipse cx="151" cy="56" rx="3.5" ry="7" fill="#FFA500"/>
+          <ellipse cx="151" cy="58" rx="1.5" ry="3" fill="#fff"/>
+          <circle class="flame-glow" cx="151" cy="54" r="15" fill="#FFD700" opacity="0.3"/>
+        </g>
+        <g class="flame">
+          <ellipse cx="173" cy="62" rx="5" ry="10" fill="#FFD700"/>
+          <ellipse cx="173" cy="64" rx="3" ry="6" fill="#FFA500"/>
+          <ellipse cx="173" cy="66" rx="1.5" ry="3" fill="#fff"/>
+          <circle class="flame-glow" cx="173" cy="62" r="15" fill="#FFD700" opacity="0.3"/>
+        </g>
+        <text x="130" y="145" font-size="14" opacity="0.6">✦</text>
+        <text x="160" y="140" font-size="10" opacity="0.5">✦</text>
+        <text x="95" y="220" font-size="12" opacity="0.5">✦</text>
+        <text x="195" y="215" font-size="11" opacity="0.5">✦</text>
+        <text x="150" y="295" font-size="14" opacity="0.4">✦</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- PHOTO -->
+  <section class="photo-section" id="photo">
+    <h2 class="section-title">Самая лучшая крёстная</h2>
+    <div class="photo-wrapper">
+      <div class="photo-frame">
+        <div class="photo-inner">
+          <img src="/resource/image/kate.jfif" alt="Екатерина Канаева">
+        </div>
+      </div>
+      <div class="hearts-container">
+        <div class="floating-heart">💖</div>
+        <div class="floating-heart">🌸</div>
+        <div class="floating-heart">✨</div>
+        <div class="floating-heart">💗</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WISHES -->
+  <section class="wishes-section" id="wishes">
+    <div class="wishes-content">
+      <h2 class="wishes-title">Пожелания от всего сердца</h2>
+
+      <div class="wish-card">
+        <span class="wish-icon">🌟</span>
+        <p class="wish-text">
+          Дорогая <em>Катя</em>, в этот прекрасный день хочу пожелать тебе
+          <em>безграничного счастья</em>, которое наполняет каждый момент жизни
+          светом и теплом!
+        </p>
+      </div>
+
+      <div class="wish-card">
+        <span class="wish-icon">💝</span>
+        <p class="wish-text">
+          Ты — удивительный человек с <em>золотым сердцем</em>. Твоя забота и любовь
+          согревают всех, кто рядом. Пусть эта доброта возвращается к тебе
+          <em>стократно</em>!
+        </p>
+      </div>
+
+      <div class="wish-card">
+        <span class="wish-icon">🦋</span>
+        <p class="wish-text">
+          Желаю тебе <em>крепкого здоровья</em>, вдохновения в каждом дне,
+          исполнения самых заветных мечтаний и <em>бесконечной радости</em>
+          в кругу любимых людей!
+        </p>
+      </div>
+
+      <div class="wish-card">
+        <span class="wish-icon">🌹</span>
+        <p class="wish-text">
+          Пусть каждый новый год жизни будет <em>ярче и прекраснее</em> предыдущего,
+          а удача и любовь <em>не покидают тебя никогда</em>!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="final-section" id="final">
+    <div class="final-message">
+      <h2>С любовью и благодарностью!</h2>
+      <p>
+        Спасибо тебе за всё — за твою заботу, тепло и любовь.
+        Ты самая лучшая крёстная на свете!
+        Пусть этот день будет наполнен улыбками,
+        объятиями и самыми приятными сюрпризами.
+      </p>
+      <p class="signature">С любовью, твой крестник ❤️</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
